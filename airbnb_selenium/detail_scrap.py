@@ -88,4 +88,4 @@ driver.quit()
 with open('airbnb_detail.json', 'w', encoding='utf-8') as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
-print("✅ JSON 저장 완료 → airbnb_extracted_listings.json")
+print("✅ JSON 저장 완료 → airbnb_detail.json")
